@@ -9,7 +9,7 @@ const marker = L.marker([8.37, 124.86]).addTo(map);
 marker.bindPopup("<b>Manolo Fortich</b><p>Welcome to Bukidnon!</p>");
 L.circle([8.37, 124.86], {
   color: "blue",
-  fillColor: "#30a3ec",
+  fillColor: "#f3e4a3",
   fillOpacity: 0.3,
   radius: 500,
 }).addTo(map);
