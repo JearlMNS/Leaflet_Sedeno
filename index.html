@@ -2,27 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Leaflet Map</title>
+
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <hr />
     <h1 class="top">My Interactive Map</h1>
-    <p class="special">Event Driven Programming- Leaflet</p>
+    <p class="special">Event Driven Programming - Leaflet</p>
     <hr />
 
     <p>
-      Click on the map to add a marker. The marker will display the coordinates
-      of the clicked location.
+      Explore the landmarks of Manolo Fortich, Bukidnon. Click anywhere on the
+      map to display its coordinates.
     </p>
+
     <div id="map"></div>
+
+    <h3>Map Features</h3>
+    <p>
+      Blue circle: 500-meter radius<br />
+      Markers: Local landmarks<br />
+      Map click: Displays latitude and longitude
+    </p>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
     <h2>Created by: Sedeno</h2>
+
     <img
       class="img"
       src="image/cat profile.jpg"
@@ -30,6 +43,7 @@
       width="200"
       height="200"
     />
+
     <script src="java.js"></script>
   </body>
 </html>
